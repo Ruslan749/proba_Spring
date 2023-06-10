@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/spring-app1/pom.xml" />
         <option value="$PROJECT_DIR$/Inversion_of_controled/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency_injection/pom.xml" />
       </list>
     </option>
   </component>

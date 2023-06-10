@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Inversion_of_controled" />
+        <module name="Dependency_injection" />
         <module name="spring-app1" />
       </profile>
     </annotationProcessing>

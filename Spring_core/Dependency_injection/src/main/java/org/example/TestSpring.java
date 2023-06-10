@@ -11,14 +11,19 @@ public class TestSpring {
                 "applicationContext.xml"
         );
 
-        // вызовет экземпляр объекта и применин настройки конфигурации
+       /* // вызовет экземпляр объекта и применин настройки конфигурации
         // ( id  конфигурации, экземпляр класа на что применить изменения)
        Music music = context.getBean("musicBean", Music.class);
+       // передаем аргумента
+       MusicPlayer musicPlayer = new MusicPlayer(music);*/
 
-        // вручную внедряем зависимость
-       MusicPlayer musicPlayer = new MusicPlayer(music);
+        MusicPlayer musicPlayer = context.getBean("musicPlayer", MusicPlayer.class);
+
         // вызов экземпляра объекта
        musicPlayer.playMusic();
+
+       System.out.println(musicPlayer.getName());
+       System.out.println(musicPlayer.getValue());
         // закрытия контекста
        context.close();
     }

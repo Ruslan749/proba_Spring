@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Dependency_injection.iml" filepath="$PROJECT_DIR$/Dependency_injection.iml" />
       <module fileurl="file://$PROJECT_DIR$/Inversion_of_controled.iml" filepath="$PROJECT_DIR$/Inversion_of_controled.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring_core.iml" filepath="$PROJECT_DIR$/.idea/Spring_core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-app1/spring-app1.iml" filepath="$PROJECT_DIR$/spring-app1/spring-app1.iml" />
     </modules>
   </component>
 </project>
