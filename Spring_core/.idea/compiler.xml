@@ -9,6 +9,7 @@
         <module name="Inversion_of_controled" />
         <module name="Dependency_injection" />
         <module name="spring-app1" />
+        <module name="Scope" />
       </profile>
     </annotationProcessing>
   </component>
