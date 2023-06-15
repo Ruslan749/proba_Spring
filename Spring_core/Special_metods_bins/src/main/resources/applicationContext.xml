@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+<!--    импортирование файла настроек musicPlayer.properties в наш файл-->
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+    <bean id="music1" class="org.example.ClasicalMusic"/>
+    <bean id="music2" class="org.example.RockMusic"/>
+    <bean id="music3" class="org.example.JazzMusic"/>
+
+    <bean id="musicBean" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="music1"/>
+                <ref bean="music2"/>
+                <ref bean="music3"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+    <bean id = "musicPlayer"
+          class = "org.example.MusicPlayer"
+          scope="prototype">
+<!--  <constructor-arg ref="musicBean"/> назначает классу MusicPlayer в качестве аргумента musicBean-->
+            <property name="musicList" ref="musicBean" />
+<!--        Внедрение зависимостей через setName и  setValue-->
+<!--        <property name="name" value="Some name" />-->
+<!--        <property name="value" value="50" />-->
+<!--  бращение к пораметрам из файла musicPlayer.properties -->
+            <property name="name" value="${musicPlayer.name}" />
+            <property name="value" value="${musicPlayer.volume}" />
+    </bean>
+
+</beans>

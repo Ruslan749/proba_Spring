@@ -10,6 +10,7 @@
         <module name="Dependency_injection" />
         <module name="spring-app1" />
         <module name="Scope" />
+        <module name="Special_metods_bins" />
       </profile>
     </annotationProcessing>
   </component>
