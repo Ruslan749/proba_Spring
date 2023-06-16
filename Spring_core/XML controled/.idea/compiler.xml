@@ -7,14 +7,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Dependency_injection" />
+        <module name="Inversion_of_controled" />
+        <module name="spring-app1" />
         <module name="Scope" />
+        <module name="Special_metods_bins" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="anatations" target="1.5" />
-      <module name="Inversion_of_controled" target="19" />
-      <module name="Special_metods_bins" target="19" />
-      <module name="spring-app1" target="19" />
-    </bytecodeTargetLevel>
   </component>
 </project>

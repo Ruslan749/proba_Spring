@@ -4,20 +4,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/spring-app1/pom.xml" />
-        <option value="$PROJECT_DIR$/Inversion_of_controled/pom.xml" />
-        <option value="$PROJECT_DIR$/Dependency_injection/pom.xml" />
         <option value="$PROJECT_DIR$/Scope/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-app1/pom.xml" />
         <option value="$PROJECT_DIR$/Special_metods_bins/pom.xml" />
-        <option value="$PROJECT_DIR$/anatations/pom.xml" />
-        <option value="$PROJECT_DIR$/XML controled/Scope/pom.xml" />
-        <option value="$PROJECT_DIR$/XML controled/Dependency_injection/pom.xml" />
+        <option value="$PROJECT_DIR$/Dependency_injection/pom.xml" />
+        <option value="$PROJECT_DIR$/Inversion_of_controled/pom.xml" />
       </list>
-    </option>
-    <option name="ignoredFiles">
-      <set>
-        <option value="$PROJECT_DIR$/anatations/pom.xml" />
-      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_19" default="true" project-jdk-name="19" project-jdk-type="JavaSDK">
