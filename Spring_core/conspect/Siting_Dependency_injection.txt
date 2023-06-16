@@ -1,0 +1,49 @@
+
+***** Чтение данных из файла musicPlayer.properties
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
+
+***** Создание нескольких бинов
+    <bean id="music1" class="org.example.ClasicalMusic"/>
+    <bean id="music2" class="org.example.RockMusic"/>
+    <bean id="music3" class="org.example.JazzMusic"/>
+
+***** Передача бинов в виде list
+    <bean id="musicBean" class="java.util.ArrayList">
+        <constructor-arg>
+            <list>
+                <ref bean="music1"/>
+                <ref bean="music2"/>
+                <ref bean="music3"/>
+            </list>
+        </constructor-arg>
+    </bean>
+
+***** Простая реализация бина
+    <bean id="musicBean"
+         class="org.example.ClasicalMusic"
+        init-method="doMyInit" --- метод который срабатывает при создании объекта
+        destroy-method="doMyDestroy" --- метод который срабатывает при окончании метода(уничтожении)
+        factory-method="getClassicalMusic"> --- передаем метод для создания объекта путем фабричного метода
+    </bean>
+
+    <bean id = "musicPlayer"
+          class = "org.example.MusicPlayer"
+****** Параметр scope отвечает за создание объекта, параметр prototype
+позваляет создавать два разных объекта а пораметр singleton
+для создание сылки на один и тот же объект
+          scope="prototype">
+
+****** Назначает классу MusicPlayer в качестве аргумента musicBean
+    <constructor-arg ref="musicBean"/>
+            <property name="musicList" ref="musicBean" />
+
+****** Внедрение зависимостей через setName и  setValue
+       <property name="name" value="Some name" />
+      <property name="value" value="50" />
+
+****** Обращение к пораметрам из файла musicPlayer.properties
+            <property name="name" value="${musicPlayer.name}" />
+            <property name="value" value="${musicPlayer.volume}" />
+    </bean>
+
+</beans>
