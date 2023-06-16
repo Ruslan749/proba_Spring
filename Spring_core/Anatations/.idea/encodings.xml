@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/anatationAutowired/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anatationAutowired/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anatationQualifier/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/anatationQualifier/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/antations_Scope_Value_PostConstructor_PreDestroy/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/antations_Scope_Value_PostConstructor_PreDestroy/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configAnatation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/configAnatation/src/main/resources" charset="UTF-8" />
+  </component>
+</project>
