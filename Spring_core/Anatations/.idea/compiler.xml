@@ -6,11 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="configAnatation" />
+        <module name="anatationQualifier" />
+        <module name="example_1" />
         <module name="anatationComponent" />
         <module name="antations_Scope_Value_PostConstructor_PreDestroy" />
-        <module name="configAnatation" />
+        <module name="example_2" />
         <module name="anatationAutowired" />
-        <module name="anatationQualifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
