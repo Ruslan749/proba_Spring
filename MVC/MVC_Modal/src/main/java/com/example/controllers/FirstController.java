@@ -16,6 +16,7 @@ public class FirstController {
                             Model model){
         // System.out.println("Hello " + name + " " +  surname);
 
+        // отображение на странице по ключу message  через timelife
         model.addAttribute("message", "Hello " + name + " " +  surname);
         return "first/hello";
     }
