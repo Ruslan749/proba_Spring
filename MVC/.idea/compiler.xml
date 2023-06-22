@@ -6,9 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-mvc-app1" />
-        <module name="spring-mvc-app-java-config" />
+        <module name="MVC_Modal" />
+        <module name="MVC_CRUD" />
+        <module name="MVC_ModalAttribute" />
         <module name="MVC_Controller" />
+        <module name="spring-mvc-app1" />
+        <module name="MVC_RequestParam" />
+        <module name="spring-mvc-app-java-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

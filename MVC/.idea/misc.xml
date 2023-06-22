@@ -10,6 +10,10 @@
         <option value="$PROJECT_DIR$/spring-mvc-app1/pom.xml" />
         <option value="$PROJECT_DIR$/demo/pom.xml" />
         <option value="$PROJECT_DIR$/MVC_Controller/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_RequestParam/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_Modal/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_CRUD/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_ModalAttribute/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
