@@ -1,0 +1,11 @@
+**** CREATE TABLE Person(
+        id int,
+        name varchar,
+        age int,
+        email varchar
+     ) -- создать таблицу с такими полями
+
+**** insert into person() values (1,'Tom',18,'tom@mail.ru') -- добавляет данные в колонки,
+если данные добавляются во все колонки то передается просто название таблицы без скобок
+
+**** select * from person -- выводит все значения таблицы
