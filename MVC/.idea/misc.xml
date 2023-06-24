@@ -14,6 +14,10 @@
         <option value="$PROJECT_DIR$/MVC_Modal/pom.xml" />
         <option value="$PROJECT_DIR$/MVC_CRUD/pom.xml" />
         <option value="$PROJECT_DIR$/MVC_ModalAttribute/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_PATH_and_DELETE/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_Volidation/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_JDBC_Api/pom.xml" />
+        <option value="$PROJECT_DIR$/MVC_iections_PreperedStetement/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

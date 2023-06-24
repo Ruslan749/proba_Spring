@@ -6,12 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="MVC_JDBC_Api" />
         <module name="MVC_Modal" />
+        <module name="MVC_Volidation" />
         <module name="MVC_CRUD" />
         <module name="MVC_ModalAttribute" />
         <module name="MVC_Controller" />
         <module name="spring-mvc-app1" />
         <module name="MVC_RequestParam" />
+        <module name="MVC_PATH_and_DELETE" />
+        <module name="MVC_iections_PreperedStetement" />
         <module name="spring-mvc-app-java-config" />
       </profile>
     </annotationProcessing>

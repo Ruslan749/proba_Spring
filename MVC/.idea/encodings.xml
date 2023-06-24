@@ -5,12 +5,20 @@
     <file url="file://$PROJECT_DIR$/MVC_CRUD/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_Controller/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_Controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_JDBC_Api/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_JDBC_Api/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_Modal/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_Modal/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_ModalAttribute/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_ModalAttribute/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_PATH_and_DELETE/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_PATH_and_DELETE/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_RequestParam/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/MVC_RequestParam/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_Volidation/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_Volidation/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_iections_PreperedStetement/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/MVC_iections_PreperedStetement/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/config/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/configMVC/src/main/java" charset="UTF-8" />
