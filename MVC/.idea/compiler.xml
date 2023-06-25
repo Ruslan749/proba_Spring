@@ -11,6 +11,7 @@
         <module name="MVC_Volidation" />
         <module name="MVC_CRUD" />
         <module name="MVC_ModalAttribute" />
+        <module name="MVC_JDBC_Templete" />
         <module name="MVC_Controller" />
         <module name="spring-mvc-app1" />
         <module name="MVC_RequestParam" />
