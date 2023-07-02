@@ -123,3 +123,8 @@ user_id int REFERENCES Person(user_id) ON DELETE ???
 ключ ссылаеться на внешний ключ)
 
 DELETE FROM person WHERE user_id=1 -- удаляет человека с первичным ключом 1
+
+// удаление данных из таблицы
+TRUNCATE TABLE person -- очистить таблицу от данных
+
+ALTER TABLE person ADD COLUMN address varchar NOT NULL -- добавление новой колонки address
