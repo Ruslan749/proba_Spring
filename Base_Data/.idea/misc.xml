@@ -6,6 +6,7 @@
       <list>
         <option value="$PROJECT_DIR$/avtomatical_config_numbers/pom.xml" />
         <option value="$PROJECT_DIR$/genereted_numbers/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_validator/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
