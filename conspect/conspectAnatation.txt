@@ -80,4 +80,17 @@
 **** @Id -- помечает что это особенное поле id
 **** @Column(name = "id") --  указывает на ссылку в таблице указанной в @Table на то что эти данные лежат в
 колонке id
-**** @GeneratedValue(strategy = GenerationType.IDENTITY) -- указываем что id  генерируеться на староне базы данных
+**** @GeneratedValue(strategy = GenerationType.IDENTITY) -- указываем что id  генерируется на стороне базы данных
+
+Отношение один ко многим:
+
+сторона many:__________
+        @ManyToOne -- помечаем что это сторона является стороной many
+        @JoinColumn(name = "person_id", referencedColumnName = "id") -- помечаем какое поле является отношениями
+     а в родительской колонке это значение с полем id
+
+сторона one:______
+            @OneToMany(mappedBy = "owner" , cascade = ?) -- помечаем ее данной аннотацией и указываем ее на переменную которая связана со стороной many
+                ? -- CascadeType.PERSIST -- при сохранения главного элемента сохраняет и дочерний элемент через метод persist()
+
+            @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE) -- при сохранения главного элемента сохраняет и дочерний элемент через метод save()

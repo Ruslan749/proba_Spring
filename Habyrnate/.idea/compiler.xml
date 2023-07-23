@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="one_to_many" />
+        <module name="hibernate_save-data" />
+        <module name="hubernate_start" />
+        <module name="HQL" />
+        <module name="cascading" />
+        <module name="hibernate_uppdate-data" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Cascading" target="20" />
+      <module name="cascading (1)" target="20" />
+      <module name="Cascading (2)" target="20" />
+      <module name="one_to_one" target="20" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
