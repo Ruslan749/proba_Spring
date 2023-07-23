@@ -14,15 +14,15 @@
 
 **** create sequence first_sequence -- создает поле для генерации значения с названием first_sequence
 
-**** select nextval('first_sequence') -- вызывает наше поле и присвает ему значение, при повторном вызове
+**** select nextval('first_sequence') -- вызывает наше поле и присвоит ему значение, при повторном вызове
 увеличивает значение на единицу
 
-**** drop sequence first_sequence -- удаление поле с гинерацией значения
+**** drop sequence first_sequence -- удаление поле с генерацией значения
 
 // создаем новую таблицу Person
 create table Person(
-    id SERIAL,  -- значение которое позволяет генерировать значения из созданого нами гениратора значений
-       ( id int GENERATED ALWAYS AS IDENTITY) -- второй способ который используеться в стандарте после 10 версии
+    id SERIAL,  -- значение которое позволяет генерировать значения из созданного нами генератора значений
+       ( id int GENERATED ALWAYS AS IDENTITY) -- второй способ который используется в стандарте после 10 версии
     name varchar,
     age int,
     email varchar

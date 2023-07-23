@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="one_to_many" />
-        <module name="hibernate_save-data" />
         <module name="hubernate_start" />
         <module name="HQL" />
-        <module name="cascading" />
         <module name="hibernate_uppdate-data" />
+        <module name="one_to_many" />
+        <module name="hibernate_save-data" />
+        <module name="cascading" />
+        <module name="one_to_one" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cascading" target="20" />
       <module name="cascading (1)" target="20" />
       <module name="Cascading (2)" target="20" />
-      <module name="one_to_one" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

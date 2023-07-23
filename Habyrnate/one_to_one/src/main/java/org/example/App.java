@@ -1,22 +1,18 @@
 package org.example;
 
 
-import org.example.modal.Item;
+import org.example.modal.Passport;
 import org.example.modal.Person;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
-
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
 
 public class App
 {
     public static void main( String[] args )
     {
         Configuration configuration = new Configuration().addAnnotatedClass(Person.class)
-                .addAnnotatedClass(Item.class);
+                .addAnnotatedClass(Passport.class);
 
         SessionFactory sessionFactory = configuration.buildSessionFactory();
         Session session = sessionFactory.getCurrentSession();
@@ -24,15 +20,28 @@ public class App
         try {
             session.beginTransaction();
 
-            Person person = new Person("Test",30); // создаем нового человека
+//            Person person = new Person("Test person", 30);
+//            Passport passport = new Passport( 12345);
+//
+//            person.setPassport(passport);
+//            session.save(person);
 
-            // создаем новый товар для человека
-            person.addItem(new Item("item 1")); // создаем новый товар для человека
-            person.addItem(new Item("item 2"));
-            person.addItem(new Item("item 3"));
+            // чтения данных
+            Person person1 = session.get(Person.class,1);
+            System.out.println(person1.getPassport().getPassportNumber());
 
-            session.save(person);
+            Passport passport1 = session.get(Passport.class,1);
+            System.out.println(passport1.getPerson().getName());
 
+            // изменения данных паспорта
+
+            Person person2 = session.get(Person.class, 1);
+            person2.getPassport().setPassportNumber(1212121);
+
+            // удаление человека
+
+            Person person3 = session.get(Person.class, 4);
+            session.remove(person3);
 
             session.getTransaction().commit();
 
