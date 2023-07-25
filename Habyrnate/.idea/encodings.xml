@@ -13,6 +13,8 @@
     <file url="file://$PROJECT_DIR$/hibernate_uppdate-data/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hubernate_start/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hubernate_start/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/many_to_many/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/many_to_many/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/one_to_many/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/one_to_many/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/one_to_one/src/main/java" charset="UTF-8" />

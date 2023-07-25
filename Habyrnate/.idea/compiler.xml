@@ -13,12 +13,14 @@
         <module name="hibernate_save-data" />
         <module name="cascading" />
         <module name="one_to_one" />
+        <module name="many_to_many" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Cascading" target="20" />
       <module name="cascading (1)" target="20" />
       <module name="Cascading (2)" target="20" />
+      <module name="many_to_manY" target="20" />
     </bytecodeTargetLevel>
   </component>
 </project>

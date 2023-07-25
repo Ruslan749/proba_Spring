@@ -13,11 +13,14 @@
         <option value="$PROJECT_DIR$/one_to_one/pom.xml" />
         <option value="$PROJECT_DIR$/Cascading1/pom.xml" />
         <option value="$PROJECT_DIR$/cascading/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_many/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_manY/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Cascading1/pom.xml" />
+        <option value="$PROJECT_DIR$/many_to_manY/pom.xml" />
       </set>
     </option>
   </component>
