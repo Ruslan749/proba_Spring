@@ -13,6 +13,7 @@
         <module name="hibernate_save-data" />
         <module name="cascading" />
         <module name="one_to_one" />
+        <module name="Lazy_loading" />
         <module name="many_to_many" />
       </profile>
     </annotationProcessing>
