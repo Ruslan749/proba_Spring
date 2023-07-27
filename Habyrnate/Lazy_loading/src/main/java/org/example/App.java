@@ -8,9 +8,7 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+
 
 public class App
 {
