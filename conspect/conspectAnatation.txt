@@ -94,3 +94,13 @@
                 ? -- CascadeType.PERSIST -- при сохранения главного элемента сохраняет и дочерний элемент через метод persist()
 
             @Cascade(org.hibernate.annotations.CascadeType.SAVE_UPDATE) -- при сохранения главного элемента сохраняет и дочерний элемент через метод save()
+Для SpringConfig: ________
+
+**** @PropertySource("classpath:hibernate.properties") -- указываем путь к файлу настроек hibernate
+**** @EnableTransactionManagement -- указываем спрингу чтобы он управлял транзакциями
+
+Для DAO: __________
+**** @Transactional(readOnly = true) -- внутри этого метода будет открыта транзакция
+
+
+

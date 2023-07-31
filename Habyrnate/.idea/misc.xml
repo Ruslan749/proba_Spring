@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="MavenProjectsManager">
@@ -15,11 +16,16 @@
         <option value="$PROJECT_DIR$/many_to_many/pom.xml" />
         <option value="$PROJECT_DIR$/many_to_manY/pom.xml" />
         <option value="$PROJECT_DIR$/Lazy_loading/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate_DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/Hibernate_DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/Hibernate_dao/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">
       <set>
         <option value="$PROJECT_DIR$/Cascading1/pom.xml" />
+        <option value="$PROJECT_DIR$/Hibernate_DAO/pom.xml" />
+        <option value="$PROJECT_DIR$/hibernate_DAO/pom.xml" />
         <option value="$PROJECT_DIR$/many_to_manY/pom.xml" />
       </set>
     </option>

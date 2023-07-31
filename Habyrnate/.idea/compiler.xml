@@ -9,6 +9,7 @@
         <module name="hubernate_start" />
         <module name="HQL" />
         <module name="hibernate_uppdate-data" />
+        <module name="Hibernate_dao" />
         <module name="one_to_many" />
         <module name="hibernate_save-data" />
         <module name="cascading" />
@@ -21,6 +22,7 @@
       <module name="Cascading" target="20" />
       <module name="cascading (1)" target="20" />
       <module name="Cascading (2)" target="20" />
+      <module name="hibernate_DAO" target="1.7" />
       <module name="many_to_manY" target="20" />
     </bytecodeTargetLevel>
   </component>
