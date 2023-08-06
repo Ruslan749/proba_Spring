@@ -128,3 +128,12 @@ DELETE FROM person WHERE user_id=1 -- удаляет человека с пер�
 TRUNCATE TABLE person -- очистить таблицу от данных
 
 ALTER TABLE person ADD COLUMN address varchar NOT NULL -- добавление новой колонки address
+
+--- Просто дата без точного времени
+
+ALTER TABLE person ADD COLUMN data_of_birth DATE;
+
+--- Точное время
+--- Значение timestamp сохраняются в секундах до или после 1 января 2000г.
+
+ALTER TABLE person ADD COLUMN created_at timestamp;
