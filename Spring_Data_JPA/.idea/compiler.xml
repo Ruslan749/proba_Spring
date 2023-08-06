@@ -10,6 +10,7 @@
         <module name="Data_JPA_DAO-Hibernate" />
         <module name="Castom-Data_JPA" />
         <module name="Data_And_Hors-Hibernate" />
+        <module name="Data_JPA-problem_N1" />
       </profile>
     </annotationProcessing>
   </component>
