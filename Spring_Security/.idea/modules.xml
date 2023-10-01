@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Spring_Security.iml" filepath="$PROJECT_DIR$/.idea/Spring_Security.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring_Security-Start/Spring_Security-Start.iml" filepath="$PROJECT_DIR$/Spring_Security-Start/Spring_Security-Start.iml" />
     </modules>
   </component>
 </project>
