@@ -6,16 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="Spring_Security-Start" />
+        <module name="Spring_Security-Registration" />
         <module name="Spring_Securiti-Authentication2" />
+        <module name="Spring_Security-Start" />
         <module name="Spring_Security-Auth-Page" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Spring_Security-registration" target="17" />
+      <module name="Spring_Security-registration.main" target="17" />
+      <module name="Spring_Security-registration.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="Spring_Securiti-Authentication2" options="-parameters" />
       <module name="Spring_Security-Auth-Page" options="-parameters" />
+      <module name="Spring_Security-Registration" options="-parameters" />
       <module name="Spring_Security-Start" options="-parameters" />
     </option>
   </component>
