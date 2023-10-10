@@ -31,7 +31,10 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .formLogin().loginPage("/auth/login") // какую подключить форму
                 .loginProcessingUrl("/process_login") // с какого адреса забрать данные
                 .defaultSuccessUrl("/hello",true) // на какую страницу вести после аутентификации
-                .failureUrl("/auth/login?error"); // куда будет вести в случае неудачной аутентификации
+                .failureUrl("/auth/login?error") // куда будет вести в случае неудачной аутентификации
+                .and()
+                .logout().logoutUrl("/logout") //если человек проходит по этому адресу то он разлогиниваеться и стераютться все кукис
+                .logoutSuccessUrl("/auth/login"); // при разлогировании он переходит по этому пути
 
     }
 

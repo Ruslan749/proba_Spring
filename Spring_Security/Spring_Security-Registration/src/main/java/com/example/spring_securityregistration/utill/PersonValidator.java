@@ -2,14 +2,16 @@ package com.example.spring_securityregistration.utill;
 
 import com.example.spring_securityregistration.modals.Person;
 import com.example.spring_securityregistration.service.PersonDetailsService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
 import org.springframework.validation.Errors;
 import org.springframework.validation.Validator;
+
 @Component
 public class PersonValidator implements Validator {
     private final PersonDetailsService personDetailsService;
-
+    @Autowired
     public PersonValidator(PersonDetailsService personDetailsService) {
         this.personDetailsService = personDetailsService;
     }
@@ -21,16 +23,15 @@ public class PersonValidator implements Validator {
     }
 
     @Override
-    public void validate(Object target, Errors e) {
-        Person person = (Person) target;
+    public void validate(Object o, Errors errors) {
+        Person person = (Person) o;
 
-
-        try{
+        try {
             personDetailsService.loadUserByUsername(person.getUsername());
-        }catch (UsernameNotFoundException ignored){
-            return; // странныей код все ок
+        } catch (UsernameNotFoundException ignored) {
+            return; // все ок, пользователь не найден
         }
 
-        e.rejectValue("username","","Человек с таким именем уже есть ");
+        errors.rejectValue("username", "", "Человек с таким именем пользователя уже существует");
     }
 }
