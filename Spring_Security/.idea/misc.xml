@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
-    <file type="web" url="file://$PROJECT_DIR$/Spring_Security-registration" />
+    <file type="web" url="file://$PROJECT_DIR$/Spring_Security-Registration" />
   </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
@@ -11,6 +11,9 @@
         <option value="$PROJECT_DIR$/Spring_Securiti-Authentication2/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Security-Auth-Page/pom.xml" />
         <option value="$PROJECT_DIR$/Spring_Security-Registration/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Security-shifrovanie/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_Security-Rolles/pom.xml" />
+        <option value="$PROJECT_DIR$/Spring_security-PreAuthorize/pom.xml" />
       </list>
     </option>
   </component>

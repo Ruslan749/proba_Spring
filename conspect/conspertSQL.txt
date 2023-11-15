@@ -9,7 +9,11 @@
 если данные добавляются во все колонки то передается просто название таблицы без скобок
 
 **** select * from person -- выводит все значения таблицы
+// удаление данных из таблицы
+**** TRUNCATE TABLE person;
 
+// изменение одного поле данных
+UPDATE person set role='ROLE_ADMIN' WHERE id=7
 // генерация Id
 
 **** create sequence first_sequence -- создает поле для генерации значения с названием first_sequence
